@@ -12,6 +12,8 @@ The front-end part of the application can be initialized with npm run install an
 for api.jsx you need to insert your localhost link and then add at the end /api/ (sorry I forgot to adjust this because I was running late), while in auth.jsx instead of only /api/ you need to add /api/auth/ 
 to your link. To run the front end use npm run dev.
 
+To create new questions in the front end use "Create New Questions" in the header, to see the list of all the questions click "Questions", to see the detail of a question click its text, to vote a choice click on it.
+
 DESCRIPTION OF THE APP:
 
 The backend was realized with Django REST API, using the models Question and Choice, and providing endpoints to view all the questions, view a singular question with all its details, create a question,
