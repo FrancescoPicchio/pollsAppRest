@@ -19,3 +19,11 @@ create a choice for a question and submit a vote for a particular choice of a qu
 
 The frontend was done with a very very simple React app (created using Vite) using axios and react-router-dom libraries to make use of the endpoints provided by the Django REST API. I didn't have enough time to make it prettier
 with bootstrap and such, and unfortunately when deleting questions you have to reload the page to show that it was actually deleted. 
+
+LINK TO DEPLOYED APPLICATIONS:
+
+Front-end (which is connected to the back-end):
+  https://polls-app-client-ppm-feaeb624ad75.herokuapp.com
+
+Back-end (doesn't interact directly with the frontend, can be used for crud requests):
+  https://polls-app-server-ppm-5a8750ac596d.herokuapp.com/admin/
